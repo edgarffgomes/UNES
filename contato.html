@@ -1,0 +1,56 @@
+<!-- Projeto de criação de página WEB de universidade fictícia utilizando apenas HTML5 básico-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UNES - Contato</title>
+		<meta charset="utf-8">
+	</head>
+	<body background="imagens/fundo2.png">
+
+		<table border ="0" width = "900px" align="center">
+
+			<tr>
+				<td height = "89px"><img src="imagens/logo.png"></td>
+				<td align = "right">
+					<a href="index.html">Home</a> |
+					<a href="quem-somos.html">Quem Somos</a> |
+					<a href="contato.html">Contato</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<h2>Entre em contato:</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet molestie velit, ut aliquet tellus. 
+					</p>
+					<hr>
+
+					<form>
+						<label for="email">Informe seu e-mail:</label> <br>
+						<input type="email" name="email" id="email" required><br>
+
+						<label for = "tel">Infome seu número (com DDD):</label> <br>
+						<input type="tel" id="tel" pattern="[0-9]{11}" required><br>
+
+						<label for="assunto">Informe o assunto resumidamente:</label> <br>
+						<input type="text" id="assunto" required><br>
+
+						<label for="descricao">Descrição: </label> <br>
+						<textarea id="descricao" required></textarea><br>
+						<input type="submit" value="enviar">
+					</form>
+
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="center">
+					<h4>Todos os direitos reservados</h4>
+				</td>
+
+			</tr>
+
+		</table>
+	</body>
+</html>
